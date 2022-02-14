@@ -1,0 +1,14 @@
+.dark {
+  background-color: rgba(43, 43, 43, 0.8);
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+.App {
+  font-size: 1rem;
+  float: right;
+  border: none;
+  background-color: #5bdb94;
+}

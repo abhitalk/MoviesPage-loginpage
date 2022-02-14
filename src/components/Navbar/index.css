@@ -1,0 +1,27 @@
+input[type="text"] {
+  width: 100px;
+  transition: ease-in-out, width 0.35s ease-in-out;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px #0000001a;
+  -webkit-box-shadow: 0 4px 10px #0000001a;
+}
+
+input[type="text"]:focus {
+  width: 250px;
+  outline: none;
+}
+
+@media (max-width: 575px) {
+  input[type="text"] {
+    width: 100px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input[type="text"]:focus {
+    width: 150px;
+  }
+}
